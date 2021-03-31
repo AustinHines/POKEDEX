@@ -27,7 +27,7 @@ async function getPokemonData(id){
 
 // The getPokemon function loops through all the pokemon IDs and runs/executes the getPokemonData function for each ID
 async function getPokemon(){
-  for (i = 1; i <= num; i++){
+  for (i = 1; i <= numOfPokemon; i++){
     await getPokemonData(i);
   }
 }
